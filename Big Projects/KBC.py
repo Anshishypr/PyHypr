@@ -120,12 +120,14 @@ def KBC():
             print(f'''
                     {win} You are Taking {str(money)} $.
             ''')
+            exit()
         case "d":
             print("Correct Answer.")
             money = "7,00,00,00,000"
             print(f'''
                     {win} You are Taking {str(money)} $.
             ''')
+            exit()
         case "Q":
             money = "1,00,00,000"
             print(f"You are Taking {str(money)} $.")
